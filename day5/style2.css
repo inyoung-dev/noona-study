@@ -1,0 +1,38 @@
+.home{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.home:hover{
+    text-decoration: underline;
+    color: red;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: black;
+}
+
+.center{
+    align-self: center;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}

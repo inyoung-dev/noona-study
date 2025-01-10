@@ -1,0 +1,36 @@
+.home{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.home:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: black;
+}
+
+.big{
+    position: relative;
+}
+
+.small{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

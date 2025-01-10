@@ -1,0 +1,28 @@
+.home{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.home:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.box-position{
+    position: relative;
+    left: 50px;
+    top: -50px;
+}

@@ -1,3 +1,36 @@
-.box {
+.home{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.home:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub{
+    display: flex;
+}
+.box{
  width: 100px;
+ height: 100px;
+ background-color: red;
+ color: black;
+
+}
+
+.blue{
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.yellow{
+    background-color: yellow;
 }
